@@ -1,0 +1,11 @@
+[
+	{
+		"id":"tools",
+		"children": [
+			{
+				"caption": "Open Cmd",
+				"command": "open_cmd"
+			}
+		]
+	}
+]

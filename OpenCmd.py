@@ -7,5 +7,5 @@ class OpenCmdCommand(sublime_plugin.TextCommand):
 		file_name = self.view.file_name()
 		index = file_name.rfind('\\') + 1
 		full_path = '"' + file_name[:index] + '"'
-		cmd = 'cd ' + full_path + ' & start cmd'
+		cmd = 'cd /D ' + full_path + ' & start cmd'
 		os.system(cmd)
